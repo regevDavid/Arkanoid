@@ -1,0 +1,8 @@
+# block definitions
+bdef symbol:l width:60 height:40 hit_points:3 fill:image(resources/block_images/king.jpg)
+bdef symbol:h width:60 height:40 hit_points:3 fill:image(resources/block_images/king3.jpg)
+bdef symbol:g width:60 height:40 hit_points:3 fill:image(resources/block_images/king.jpg)
+bdef symbol:e width:60 height:40 hit_points:5 fill:image(resources/block_images/king2.jpg)
+
+# spacers definitions
+sdef symbol:- width:60

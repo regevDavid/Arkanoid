@@ -1,0 +1,11 @@
+# default values for blocks
+default height:40 width:60 stroke:color(black)
+
+# block definitions
+bdef symbol:r hit_points:4 fill:image(resources/block_images/simba4.jpg) fill-2:image(resources/block_images/simba2.jpg) fill-3:image(resources/block_images/simba3.jpg) fill-4:image(resources/block_images/simba.jpg)
+bdef symbol:g hit_points:3 fill:image(resources/block_images/simba2.jpg) fill-2:image(resources/block_images/simba3.jpg) fill-3:image(resources/block_images/simba.jpg)
+bdef symbol:f hit_points:2 fill:image(resources/block_images/simba3.jpg) fill-2:image(resources/block_images/simba.jpg)
+bdef symbol:h hit_points:1 fill:image(resources/block_images/simba.jpg)
+
+# spacers definitions
+sdef symbol:- width:60

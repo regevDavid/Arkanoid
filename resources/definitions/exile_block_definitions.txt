@@ -1,0 +1,7 @@
+# block definitions
+bdef symbol:l width:60 height:40 hit_points:3 fill-3:image(resources/block_images/exile.jpg) fill-2:image(resources/block_images/exile2.jpg) fill-1:image(resources/block_images/exile3.jpg)
+bdef symbol:h width:60 height:40 hit_points:3 fill-3:image(resources/block_images/exile.jpg) fill-2:image(resources/block_images/exile2.jpg) fill-1:image(resources/block_images/exile3.jpg)
+bdef symbol:g width:60 height:40 hit_points:3 fill-3:image(resources/block_images/exile.jpg) fill-2:image(resources/block_images/exile2.jpg) fill-1:image(resources/block_images/exile3.jpg)
+
+# spacers definitions
+sdef symbol:- width:60

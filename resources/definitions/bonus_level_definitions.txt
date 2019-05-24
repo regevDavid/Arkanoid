@@ -1,0 +1,78 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:The Beginning
+ball_velocities:0,500
+background:image(background_images/first.png)
+paddle_speed:650
+paddle_width:300
+block_definitions:definitions/the_beginning_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:10
+START_BLOCKS
+-----r
+----g-g
+---f-f-f
+--h-h-h-h
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name:The Exile
+ball_velocities:-45,500 -30,500 -15,500 15,500 30,500 45,500
+background:image(background_images/second.jpg)
+paddle_speed:350
+paddle_width:100
+block_definitions:definitions/exile_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:42
+START_BLOCKS
+------g
+-----g-g
+----g---g
+---g-----g
+--lllllllll
+--h-hhh--hh
+--h-hhh--hh
+--hhhhh--hh
+--hhhhh--hh
+END_BLOCKS
+END_LEVEL
+
+
+
+
+
+# Level 3
+# the moon with different block definitions
+
+START_LEVEL
+level_name:Cycle Of Life
+ball_velocities:45,500
+background:image(background_images/third.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/king_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:9
+START_BLOCKS
+------h
+----g---g
+--l---e---l
+----g---g
+------h
+END_BLOCKS
+END_LEVEL
